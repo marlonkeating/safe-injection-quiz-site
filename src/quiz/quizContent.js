@@ -6,7 +6,7 @@
 //     extendedInfoParagraphs: $ReadOnlyArray<string>,
 // |};
 
-export const quizContent: $ReadOnlyArray<QuizQuestion> = [{
+const quizContent: $ReadOnlyArray<QuizQuestion> = [{
     question: "This is the question.  What is the answer?",
     answers: [
         "42",
@@ -14,7 +14,9 @@ export const quizContent: $ReadOnlyArray<QuizQuestion> = [{
         "African or European Swallow?"
     ],
     extendedInfoParagraphs: [
-        "Put any extended information on the subject here"
+        "Put any extended information on the subject here",
         "For the benefit of readers on the answer page"
     ]
 }];
+
+export default quizContent;
